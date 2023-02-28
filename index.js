@@ -14,5 +14,10 @@ function increment() {
 
 function save() {
   console.log(count);
+  let entries = count + " -";
+  console.log(entries);
 }
 save();
+
+let saveEl = document.getElementById("save-el");
+console.log(saveEl);
