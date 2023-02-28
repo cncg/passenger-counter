@@ -54,3 +54,25 @@ button {
   background-color: rgb(39, 166, 39);
   cursor: pointer;
 }
+
+.btns {
+  display: flex;
+  gap: 14px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(0, 0, 0, 0.35);
+  width: 500px;
+  border-radius: 4px;
+}

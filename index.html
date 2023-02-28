@@ -10,15 +10,20 @@
   </head>
 
   <body>
-    <h1>People entered</h1>
-    <h2 id="count-el">0</h2>
-    <!--* this is the element we need to select in order to manipulate it inside of our js file; we want it to increase by 1 each time someone clicks the button below-->
+    <section class="wrapper">
+      <div class="counter">
+        <h1>People entered</h1>
+        <h2 id="count-el">0</h2>
+        <!--* this is the element we need to select in order to manipulate it inside of our js file; we want it to increase by 1 each time someone clicks the button below-->
 
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <!--* this element is going to get a custom function called "increment()" to add +1 to our count/count-el-->
+        <div class="btns">
+          <button id="increment-btn" onclick="increment()">INCREMENT</button>
+          <!--* this element is going to get a custom function called "increment()" to add +1 to our count/count-el-->
+          <button id="save-btn" onclick="save()">SAVE</button>
+        </div>
 
-    <button id="save-btn" onclick="save()">SAVE</button>
-
-    <p id="save-el">Previous entries:</p>
+        <p id="save-el">Previous entries:</p>
+      </div>
+    </section>
   </body>
 </html>
