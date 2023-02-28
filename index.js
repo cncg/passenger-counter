@@ -13,11 +13,11 @@ function increment() {
 }
 
 function save() {
-  console.log(count);
-  let entries = count + " -";
-  console.log(entries);
+  let saveEl = document.getElementById("save-el");
+  let countStr = count + " - ";
+  saveEl.innerText += " " + countStr;
 }
 save();
 
-let saveEl = document.getElementById("save-el");
-console.log(saveEl);
+// let saveEl = document.getElementById("save-el");
+// console.log(saveEl);
