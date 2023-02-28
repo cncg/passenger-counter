@@ -25,7 +25,7 @@ The goal is to make sure that upon clicking the red increment button, a number w
 ### Links
 
 - Live Site URL:
-  [https://scrimba.com/learn/learnjavascript/lets-build-a-passenger-counter-app-co2614d6890ec26cd3fdafdbc]
+  [https://cncg.github.io/passenger-counter/]
 
 ## Our process
 
