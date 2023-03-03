@@ -12,12 +12,10 @@ function increment() {
   countEl.innerText = count;
 }
 
-function save() {
-  let saveEl = document.getElementById("save-el");
-  let countStr = count + " - ";
-  saveEl.innerText += " " + countStr;
-}
-save();
+let saveEl = document.getElementById("save-el");
+console.log(saveEl);
 
-// let saveEl = document.getElementById("save-el");
-// console.log(saveEl);
+function save() {
+  let countStr = count + " - ";
+  saveEl.textContent += countStr;
+}
