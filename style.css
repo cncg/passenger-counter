@@ -58,6 +58,7 @@ button {
 .btns {
   display: flex;
   gap: 14px;
+  width: 450px;
 }
 
 .wrapper {
